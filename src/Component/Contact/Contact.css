@@ -1,0 +1,181 @@
+body{
+    background-color: rgba(0, 0, 8, 0.856);
+}
+.Contact{
+    background-image:linear-gradient(to left, rgba(58, 48, 48, 0.493)90%,rgba(255, 255, 255, 0.411)),url(/public/images/back-contact.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.box-cont{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+.interface-cont{
+    width: 50vw;
+    background:beige;
+    height: 85vh;
+
+}
+.inter-cont{
+    position: relative;
+    height: 70vh;
+    left: 10%;
+    width: 85%;
+}
+.inter-cont input ,textarea{
+display: block;
+width: 70%;
+padding: 15px;
+margin: 0 0 30px 7.5%;
+outline: none;
+border: none;
+font-size: 17px;
+transition: .5s;
+cursor: pointer;
+}
+.inter-cont input:hover ,textarea:hover{
+    scale: 1.03;
+}
+.inter-cont textarea{
+    height: 27%;
+}
+.inter-cont button{
+    width: 35%;
+    padding: 10px;
+    position: relative;
+    left: 32.5%;
+    font-size: 17px;
+    border: none;
+    background-color:#1769ff;
+    transition: .5s;
+    cursor: pointer;
+}
+.inter-cont button:hover{
+    background-color: transparent;
+    border: 1px solid #1769ff;
+    color: black;
+}
+.inter-cont h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.contbox{
+    width: 40%;
+    height: 30%;
+    background-color: rgba(255, 0, 0, 0.664);
+    position: relative;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+    cursor: pointer;
+  
+}
+.contbox:hover{
+    scale: 1.02;
+}
+.logo-contact{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.info-contact{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+@media(max-width:600px){
+    .Contact{
+        background-size: cover;
+        background-position-x: center;
+        flex-direction: column-reverse;
+        padding: 2px;
+    }
+    .box-cont{
+        min-width: fit-content;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        gap: 5px;
+    }
+    .contbox{
+        width: 44%;
+        position: relative;
+        left: 0;
+    }
+    .inter-cont{
+        height: fit-content;
+    }
+    .interface-cont{
+        width: 90%;
+        margin-bottom: 10px;
+        position: relative;
+        left:-2.5% ;
+        padding: 2px;
+        background:rgba(245, 245, 220, 0.733);
+        
+    }
+    .inter-cont h3{
+        font-size: 25px;
+    }
+    .inter-cont input {
+        padding: 8px;
+    }
+    .inter-cont input ,textarea{
+        font-size: 14px;
+    }
+    .inter-cont button{
+        padding: 8px;
+        margin-bottom: 2%;
+    }
+    .logo-contact{
+        font-size: 25px;
+    }
+    .info-contact{
+        font-size: 12px;
+    }
+}
+@media(min-width:601px) and (max-width:800px){
+    .inter-cont h3{
+        font-size: 30px;
+    } 
+    .inter-cont input {
+        padding: 10px;
+    }
+    .inter-cont input ,textarea,.info-contact{
+        font-size: 14px;
+    }
+    .logo-contact{
+        font-size: 30px;
+    }
+    .contbox{
+        width: 44%;
+        position: relative;
+        left: 0;
+        flex-grow: 1;
+    }
+    .box-cont{
+        gap: 5px;
+    }
+}
+@media(max-width:600px){
+    
+}

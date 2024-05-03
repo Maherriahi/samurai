@@ -1,0 +1,73 @@
+.About{
+    align-items: center;
+    height: 100vh;
+}
+.about-page{
+    display: flex;
+    background:linear-gradient(rgba(0, 0, 0, 0.726)30%,rgb(1, 1, 44)) ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.About-par h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.back-abou{
+    height: 100%;
+    width: 60%;
+}
+.About-img{
+    margin-right: 20px;
+   height: 100%;
+   width: 25%;
+   display: flex;
+   align-items: center;
+}
+.About-img img{
+    width: 100%;
+    height: 80vh;
+   box-shadow: -8px 0 5px 0 white;
+
+}
+.About-par{
+    width: 80%;
+    margin-left: 20px;
+}
+.About-par p{
+    letter-spacing: 2px;
+    line-height: 2;
+}
+.icons-about .face ,.twit ,.yout{
+    width: 28px;
+    height: 28px;
+    margin: 50px 0 0 20px;
+    cursor: pointer;
+    padding-bottom: 2em;
+}
+.icons-about .face ,.twit{
+    color: blue;
+}
+.icons-about .yout{
+    color: red;
+}
+@media(max-width:572px){
+    .back-abou{
+        width: 100%;
+        font-size: 14px;
+    } 
+    .About-img img{
+        height: 40vh;
+        box-shadow: -3px 0 5px 0 white;
+    }
+}
+@media(max-width:1085px){
+    .About-par h1{
+        font-size: 50px;
+    } 
+    .About-img{
+        width: 25%;
+    }
+}

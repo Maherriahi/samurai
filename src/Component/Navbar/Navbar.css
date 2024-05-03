@@ -1,0 +1,42 @@
+.container{
+    background-color: #d6d7e2ee; 
+    color: white; 
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 3px solid white;
+}
+.logo{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.logo img{
+    height:100%;
+}
+.logo span{
+ font-weight: 800;
+ letter-spacing: 1px;
+ color: black ;
+ text-transform: uppercase;
+ margin-left: 10px;
+}
+.itmes{
+    width: 70%;
+    height:40px;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+}
+.link{
+margin-right: 10%;
+list-style: none;
+text-decoration: none;
+font-size: 17px;
+
+}
